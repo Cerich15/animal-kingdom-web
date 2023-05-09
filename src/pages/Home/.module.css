@@ -1,0 +1,25 @@
+.home-pane {
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.home-pane > * {
+    padding: 10px 20px;
+    color: var(--dark);
+}
+
+.home-pane .nav-items-pane {
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--dark);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-pane .nav-items-pane h5 {
+    font-weight: 500;
+}
+
+.home-pane .nav-items-pane img {
+    height: 2rem;
+}
